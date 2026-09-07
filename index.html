@@ -35,11 +35,41 @@
     font-size: 0.85rem;
     padding: 0.4rem;
   }
+  .footer-powered {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(128,128,128,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    flex-wrap: wrap;
+    font-size: .76rem;
+    color: #767676;
+  }
+  .footer-powered-item { display: inline-flex; align-items: center; gap: .4rem; color: #767676; text-decoration: none; }
+  .footer-powered-item:hover { color: inherit; }
+  .footer-powered-logo { height: 16px; width: auto; opacity: .8; }
+  .footer-powered-badge { height: 22px; width: auto; display: block; }
+  .footer-powered-sep { color: rgba(128,128,128,.4); }
 </style>
 </head>
 <body>
 <div class="banner" id="dev-banner">Local development build — redirect suppressed</div>
+<div>
 <p>Gaymer.Social and Gaymer.Coffee were discontinued in September 2026. Redirecting you to <a href="https://gaymer.social/">gaymer.social</a>&hellip;</p>
+<div class="footer-powered">
+  <a href="https://stux.group" class="footer-powered-item" target="_blank" rel="noopener">
+    <img src="https://media.stux.group/global/logo.png" alt="Stux.Group" class="footer-powered-logo">
+  </a>
+  <span class="footer-powered-sep">|</span>
+  <span>A Stux.Group Project</span>
+  <span class="footer-powered-sep">|</span>
+  <a href="https://stuxedo.com" class="footer-powered-item" target="_blank" rel="noopener">
+    <img src="https://global.media.stuxedo.com/badges/rectangle-badge.png" alt="Powered by Stuxedo" class="footer-powered-badge">
+  </a>
+</div>
+</div>
 <script>
   (function () {
     var isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
