@@ -1,6 +1,6 @@
 # Contributing to Gaymer.Social Hub
 
-This is a [Stux.Group](https://stux.group) project under the [GaymerSocial](https://github.com/GaymerSocial) organization. It was originally forked from [fosstodon/hub](https://github.com/fosstodon/hub) — the `upstream` git remote still points there. Gaymer.Social itself was discontinued in September 2026, so this repo is now just a static redirect shell rather than a Jekyll site.
+This is [a Stux.Group Service](https://services.stux.group) under the [GaymerSocial](https://github.com/GaymerSocial) organization. It was originally forked from [fosstodon/hub](https://github.com/fosstodon/hub) — the `upstream` git remote still points there. Gaymer.Social itself was discontinued in September 2026, so this repo is now just a static redirect shell rather than a Jekyll site.
 
 ## Local setup
 
